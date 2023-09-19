@@ -7,6 +7,8 @@ Sou iniciante em programação javascript. E não tem outra maneira de aprender 
 Para isso desenvolvi esses "projetos" em javascript puro, afim de aprender cada vez mais e ter mais afinidade com a linguagem em questão. Não é nada complexo mas aprendi bastante
 e assim estou conseguindo cada vez mais a me desenvolver como um futuro programador
 
+Obs: Não foquei em estilização ou responsividade. Principal foco foi o Javascript
+
 Abaixo, consta os projetos:
 
 <table>
