@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <main class="container">        
+        <h1>To do List</h1>
+
+        <section class="adicionar-tarefa">
+            <h2><label for="input-tarefa" >Adicione uma tarefa: </label> </h2>      
+            <div>
+                <input type="text" id="input-tarefa" class="input-tarefa" onfocus="this.value=''" placeholder="O que voce vai fazer?">
+                <input type="button" class="bto-adicionar">
+                <span class="erro" style="color: red"></span>
+            </div>
+        </section>
+        
+        <ul class="lista-tarefas">
+            <!-- <li class="item-tarefa">
+                <img src="img/checked.png" alt="tarefa-concluir" class="bto-confirmar">
+                <p>Estudar</p>
+                <img src="img/trash.png" alt="tarefa-excluir" class="bto-remover">
+            </li> --> 
+        </ul>       
+    </main>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
