@@ -13,9 +13,20 @@ Abaixo, consta os projetos:
   <tr>
     <td>
        <h3>Calculadora IMC</h3>
-       <li><a href="https://github.com/njunior93/mini-projetos/tree/d52844240f3d3c98a293c65fe71ebb86b4e04621/calculadora-imc">Codigo</a></li>
-       <li><a href="https://calculadoraimc-phi.vercel.app/">![image](https://github.com/njunior93/mini-projetos/assets/138621051/89abcdd4-6d25-469f-9479-adc77d7d5a0b)
-</a></li>
+       <li><a href="https://github.com/njunior93/mini-projetos/tree/d52844240f3d3c98a293c65fe71ebb86b4e04621/calculadora-imc">Codigo</a</li>
+       <p><a href="https://calculadoraimc-phi.vercel.app/"><img src="/img/calculadoraimc.JPG"></a></p>
     </td>
+    <td>
+       <h3>Cadastro de Aluno</h3>
+       <li><a href="https://github.com/njunior93/mini-projetos/tree/main/cadastro-aluno">Codigo</a</li>
+       <p><a href="https://cadastro-aluno-murex.vercel.app/"><img src="/img/cadastroaluno.JPG"></a></p>
+    </td>
+
+   <tr>
+      <td>
+         <h3>To do list</h3>
+         <li><a href="https://github.com/njunior93/mini-projetos/tree/main/todo-list-tarefas">Codigo</a</li>
+         <p><a href="https://todolist-iota-self.vercel.app/"><img src="/img/todolist.JPG"></a></p>
+      </td>
   </tr>
 </table>
