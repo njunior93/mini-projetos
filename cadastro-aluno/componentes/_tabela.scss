@@ -1,0 +1,57 @@
+.container-tabela{
+    max-width: 97%;
+    height: 100px;    
+    .tabela{
+        width: 100%;
+    }
+}
+
+::-webkit-scrollbar{
+    width: 2px;
+    background-color: #e7e2e2;
+}
+
+.colunas-aluno{
+    th{
+        background-color: $cor-principal;
+        font-weight: 500;
+        color: white; 
+    }
+}
+
+.aluno{   
+    background-color: white;
+}
+
+span{
+    color: rgba(202, 198, 198, 0.932);
+    font-style: italic;
+}
+
+th,td{
+    padding: 0.5rem;
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+    font-weight: 200;
+}
+
+.info-acao-editar, .info-acao-excluir{
+    cursor: pointer;
+}
+
+.info-acao-editar{
+    background-color: rgb(241, 220, 122);
+    color: white;
+    font-weight: bold;
+}
+
+.info-acao-excluir{
+    background-color: rgb(216, 16, 16);
+    color: white;
+    font-weight: bold;
+}
+
+.invisivel{
+    display: none;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de notas</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        Cadastro de alunos
+    </header>
+
+    <main class="container">
+
+        <section class="container-filtro">
+            <h2>Filtro</h2>
+            <select name="status" id="status" class="filtro">
+                <option value="Todos">Todos</option>
+                <option value="Aprovado">Aprovado</option>
+                <option value="Reprovado">Reprovado</option>
+            </select>
+
+        </section>
+
+        <section class="container-formulario">
+            <form class="formulario">
+                <h2>Cadastro</h2>
+                <label for="nome">Nome: <input type="text" id="nome" name="nome"></label>
+                <label for="nota1">Nota 1: <input type="number" id="nota1" name="nota1"></label>
+                <label for="nota2">Nota 2: <input type="number" id="nota2" name="nota2"></label>
+                <button class="bto-cadastrar">Cadastrar</button>
+            </form>
+        </section>
+
+        <ul class="erros-formulario erros">
+        </ul>
+
+        <section class="container-tabela">
+            <table class="tabela">
+                <thead class="colunas-aluno">
+                    <th>Nome</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Media</th>
+                    <th>Status</th>
+                    <th>Ação</th>
+                    <th>Ação</th>
+                </thead>
+        
+                <tbody class="tabela-alunos">
+                    <tr class="aluno">
+                        <td class="info-nome"><span>Aluno</span></td>
+                        <td class="info-nota1"><span>10</span></td>
+                        <td class="info-nota2"><span>8</span></td>
+                        <td class="info-media"><span>9</span></td>
+                        <td class="info-status"><span>Aprovado</span></td>
+                        <td class="info-acao"><span>EDITAR</span></td>
+                        <td class="info-acao"><span>EXCLUIR</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div class="fade hide">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>Edição Cadastro</h2>
+                <button id="close-modal" class="close-modal">Fechar</button>
+            </div>
+
+            <section class="container-formulario-modal">
+                <form class="formulario-modal">
+                    <input type="number" id="index" name="index" disabled="">
+                    <label for="nome">Nome: <input type="text" id="nome" name="nome"></label>
+                    <label for="nota1">Nota 1: <input type="number" id="nota1" name="nota1"></label>
+                    <label for="nota2">Nota 2: <input type="number" id="nota2" name="nota2"></label>
+                    <button class="bto-salvar">Salvar</button>
+                </form>
+            </section>
+            
+            <ul class="erros-modal erros">
+                
+            </ul>
+
+        </div>
+    </div>
+
+    <script src="./js/principal.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/excluir.js"></script>
+    <script src="./js/editar.js"></script>
+    <script src="./js/filtrar.js"></script>
+
+</body>
+</html>

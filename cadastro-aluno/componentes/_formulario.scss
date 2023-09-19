@@ -1,0 +1,45 @@
+.container-formulario{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    h2{
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    label{
+        font-weight: 200;
+    }
+    input{
+        margin-right: 0.2rem;
+        border-radius: .5rem;
+        border: 1px solid #CCC;
+    }
+}
+
+.info-status-reprovado{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+}
+
+.info-status-aprovado{
+    background-color: greenyellow;   
+    font-weight: bold;
+    color: white;
+}
+
+.erros-formulario{
+    width: 100%;
+    justify-content: center;
+} 
+
+.erros{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.erro{
+    margin-top: 1rem;
+    color: red;
+}
