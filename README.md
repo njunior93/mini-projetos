@@ -2,12 +2,12 @@
 
 <h2>Finalidade</h2>
 
-Sou iniciante em programação javascript. E não tem outra maneira de aprender senão praticando a linguagem.
+Sou iniciante em programação javascript. E não tem outra maneira de aprender senão praticando a linguagem. Não foquei em estilização ou responsividade. Principal foco foi a linguagem de programação.
 
 Para isso desenvolvi esses "projetos" em javascript puro, afim de aprender cada vez mais e ter mais afinidade com a linguagem em questão. Não é nada complexo mas aprendi bastante
 e assim estou conseguindo cada vez mais a me desenvolver como um futuro programador
 
-Obs: Não foquei em estilização ou responsividade. Principal foco foi o Javascript
+Obs: 
 
 Abaixo, consta os projetos:
 
